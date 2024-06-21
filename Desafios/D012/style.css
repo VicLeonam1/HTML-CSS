@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('imagens/background001.jpg');
+}
+.fundobranco{
+    
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.imagemfundo1{
+    background-color: transparent;
+}
