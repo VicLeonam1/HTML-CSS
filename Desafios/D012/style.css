@@ -18,6 +18,7 @@ html, body{
     min-height: 100vh;
     background-color: rgb(255, 255, 255);
     font-family: var(--font1);
+    box-shadow: 22px 22px 40px black;
     
     
 }
@@ -61,6 +62,7 @@ section{
 .fundo{
     background-color: rgba(255, 255, 255, 0.527);
     display: inline-block;
+    box-shadow: 22px 22px 50px black;
 }
 
 .fundobranco{
@@ -68,15 +70,16 @@ section{
     padding: 50px;
     margin-top: 10%;
     margin-bottom: 10%;
+    
 }
 
 .imagemfundo1{
-    background: transparent url('imagens/background001.jpg') no-repeat fixed center -130px;
+    background: transparent url('imagens/background001.jpg')  no-repeat fixed center / cover;
     padding: 50px;
 }
 
 .imagemfundo2{
-    background: transparent url('imagens/background002.jpg') no-repeat fixed center;
+    background: transparent url('imagens/background002.jpg') no-repeat fixed center / cover;
     padding: 50px;
 }
 
