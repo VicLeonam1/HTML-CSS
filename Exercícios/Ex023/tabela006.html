@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vendas Mensais de Produtos</title>
+<style>
+  table {
+    width: 400px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+  }
+  thead {
+    background-color: #f2f2f2;
+  }
+  tfoot {
+    font-weight: bold;
+  }
+  tbody > tr:nth-child(even){
+    background-color: rgb(180, 180, 180);
+  } 
+  div#container{
+    overflow-x: auto;
+  }
+</style>
+</head>
+<body>
+
+<h2>Vendas Mensais de Produtos</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea in ipsam deserunt itaque dolor maiores repudiandae neque perferendis saepe culpa, autem cum explicabo placeat vero porro dicta sapiente cumque eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus a natus distinctio nisi, adipisci quasi iusto totam magni, aspernatur quod dolores consequuntur accusantium animi optio quos velit laboriosam maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere perferendis a est molestiae. Quo totam maiores voluptatibus sed praesentium incidunt officiis eaque mollitia, dolorem atque autem illum alias rerum pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id porro, ipsum non consequuntur unde dolorum provident quam eaque sint illum vero et enim deserunt odio. Laudantium enim officia ex fugiat!</p>
+<div id="container">
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Produto</th>
+          <th colspan="12">Quantidade Vendida por Mês</th>
+        </tr>
+        <tr>
+            <th>Jan</th>
+            <th>Fev</th>
+            <th>Mar</th>
+            <th>Abr</th>
+            <th>Mai</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Ago</th>
+            <th>Set</th>
+            <th>Out</th>
+            <th>Nov</th>
+            <th>Dez</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Produto A</td>
+          <td>50</td>
+          <td>45</td>
+          <td>60</td>
+          <td>55</td>
+          <td>70</td>
+          <td>65</td>
+          <td>80</td>
+          <td>75</td>
+          <td>90</td>
+          <td>85</td>
+          <td>100</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>Produto B</td>
+          <td>30</td>
+          <td>35</td>
+          <td>40</td>
+          <td>45</td>
+          <td>50</td>
+          <td>55</td>
+          <td>60</td>
+          <td>65</td>
+          <td>70</td>
+          <td>75</td>
+          <td>80</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>Produto C</td>
+          <td>20</td>
+          <td>25</td>
+          <td>30</td>
+          <td>35</td>
+          <td>40</td>
+          <td>45</td>
+          <td>50</td>
+          <td>55</td>
+          <td>60</td>
+          <td>65</td>
+          <td>70</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td>Produto D</td>
+          <td>10</td>
+          <td>15</td>
+          <td>20</td>
+          <td>25</td>
+          <td>30</td>
+          <td>35</td>
+          <td>40</td>
+          <td>45</td>
+          <td>50</td>
+          <td>55</td>
+          <td>60</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>Produto E</td>
+          <td>25</td>
+          <td>30</td>
+          <td>35</td>
+          <td>40</td>
+          <td>45</td>
+          <td>50</td>
+          <td>55</td>
+          <td>60</td>
+          <td>65</td>
+          <td>70</td>
+          <td>75</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Produto F</td>
+          <td>15</td>
+          <td>20</td>
+          <td>25</td>
+          <td>30</td>
+          <td>35</td>
+          <td>40</td>
+          <td>45</td>
+          <td>50</td>
+          <td>55</td>
+          <td>60</td>
+          <td>65</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>Produto G</td>
+          <td>40</td>
+          <td>45</td>
+          <td>50</td>
+          <td>55</td>
+          <td>60</td>
+          <td>65</td>
+          <td>70</td>
+          <td>75</td>
+          <td>80</td>
+          <td>85</td>
+          <td>90</td>
+          <td>95</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>190</td>
+          <td>215</td>
+          <td>260</td>
+          <td>285</td>
+          <td>320</td>
+          <td>355</td>
+          <td>390</td>
+          <td>425</td>
+          <td>460</td>
+          <td>495</td>
+          <td>530</td>
+          <td>565</td>
+        </tr>
+      </tfoot>
+    </table>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea in ipsam deserunt itaque dolor maiores repudiandae neque perferendis saepe culpa, autem cum explicabo placeat vero porro dicta sapiente cumque eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus a natus distinctio nisi, adipisci quasi iusto totam magni, aspernatur quod dolores consequuntur accusantium animi optio quos velit laboriosam maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere perferendis a est molestiae. Quo totam maiores voluptatibus sed praesentium incidunt officiis eaque mollitia, dolorem atque autem illum alias rerum pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id porro, ipsum non consequuntur unde dolorum provident quam eaque sint illum vero et enim deserunt odio. Laudantium enim officia ex fugiat!</p>
+</body>
+</html>
