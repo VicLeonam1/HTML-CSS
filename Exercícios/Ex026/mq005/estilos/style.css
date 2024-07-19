@@ -13,6 +13,7 @@ html body{
 header h1{
     background-color: gray;
     text-align: center;
+    padding: 10px;
 }
 
 main > article > h1, p{
