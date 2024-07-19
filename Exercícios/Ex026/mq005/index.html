@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu Site</h1>
-        <nav>
-            <a href="#">Opção 1</a>
-            <a href="#">Opção 2</a>
-            <a href="#">Opção 3</a>
-            <a href="#">Opção 4</a>
-            <a href="#">Opção 5</a>
-        </nav>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
     </header>
     <main>
         <article>
@@ -26,5 +30,23 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium necessitatibus officiis, ab eius nam fugit placeat alias est possimus excepturi veritatis illum quisquam tempora pariatur adipisci corporis amet a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quisquam mollitia assumenda, a reprehenderit aut ea error architecto quod dolor culpa quasi. Laborum, nobis iure. Ipsum alias voluptates similique voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero sit veritatis, nulla, obcaecati exercitationem numquam praesentium nemo ut modi blanditiis reiciendis rerum illum. Laudantium explicabo ut ipsam. Tempore, nesciunt.</p>
         </article>
     </main>
+
+    <script>
+
+        function clickMenu(){
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        function mudoutamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
